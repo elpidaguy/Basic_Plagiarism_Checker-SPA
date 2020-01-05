@@ -1,7 +1,6 @@
 # PlagiarismReport
 
-[![Generic badge](
-https://img.shields.io/github/license/elpidaguy/https://img.shields.io/github/license/elpidaguy/Basic_Plagiarism_Checker-SPA-?style=flat-square)](https://github.com/elpidaguy/https://img.shields.io/github/license/elpidaguy/Basic_Plagiarism_Checker-SPA-?style=flat-square/blob/master/LICENSE)
+[![Generic badge](https://img.shields.io/github/license/elpidaguy/Basic_Plagiarism_Checker-SPA-?style=flat-square)](https://img.shields.io/github/license/elpidaguy/Basic_Plagiarism_Checker-SPA-?style=flat-square/blob/master/LICENSE)
 
 Basic Plagiarism checker using SPA design pattern.
 
