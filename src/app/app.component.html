@@ -1,8 +1,8 @@
 <section *ngIf="!_isLoggedIn && !_isplagCheck">
 
   <div class="container p-4 text-center row">
-    <div class="col-md-5"></div>
-    <div class="card w-50">
+    <!-- <div class="col-md-5"></div> -->
+    <div class="card w-50" style="margin-left: 35vw;">
       <div class="card-header bg-warning text-white">
         <h2>Login</h2>
 
@@ -25,7 +25,12 @@
             <input type="password" [(ngModel)]="password" class="form-control" placeholder="Enter password" id="pwd">
           </div>
         </div>
-        <button type="button" class="btn btn-success btn-xl" (click)="onSubmit()">Login</button>
+        <button type="button" class="btn btn-success btn-block btn-xl m-1 p-2" (click)="onSubmit()">Login</button>
+        <hr>
+        <div class="alert alert-info">
+          <strong>Username:</strong> Din Djarin <br>
+          <strong>Password:</strong> thisistheway
+        </div>
       </div>
       <div *ngIf="_isError" class="card-footer bg-danger">
         <div class="alert alert-danger">
@@ -150,3 +155,12 @@
 
   </div>
 </section>
+
+<footer>
+  <nav class="navbar fixed-bottom navbar-light bg-danger text-white">
+    <a class="navbar-brand text-white" href="https://bit.ly/elpidaguy">elpidaguy</a>
+    Note: This app was created during my CDAC-MEAN stack module as lab assignment in 30 mins. This should not be treated as a
+    full fledged Plagiarism Checker.
+
+  </nav>
+</footer>
